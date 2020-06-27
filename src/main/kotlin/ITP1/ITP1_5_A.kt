@@ -6,12 +6,6 @@ fun main(args: Array<String>) {
 
         if ((H == 0) and (W == 0)) break
 
-        for (i in 1..H) {
-            for (j in 1..W) {
-                print("#")
-            }
-            println()
-        }
-        println()
+        println("${"#".repeat(W)}\n".repeat(H))
     }
 }
